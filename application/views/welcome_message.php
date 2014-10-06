@@ -31,7 +31,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand pull-left" href="#">Art Webhost Bootstrap Web Portal</a>
+          <a class="navbar-brand pull-left" href="#"><? echo $lang_site_title; ?></a>
         </div>
         <div class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" role="form">
@@ -51,8 +51,8 @@
     <div class="jumbotron">
       <div class="container">
         <h1><img  class="media-object" src="<?php echo asset_url(); ?>img/logo.png" alt="Art Webhost" /></h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+        <p><? echo $lang_site_description; ?></p>
+        <p><a class="btn btn-primary btn-lg" role="button"><? echo $lang_site_btn_learn_more; ?></a></p>
       </div>
     </div>
 
